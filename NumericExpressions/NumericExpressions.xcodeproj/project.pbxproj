@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28413796186DDB8600D4F5B8 /* SRErrorCodes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2866364A186DB25D002C61DD /* SRErrorCodes.h */; };
+		28663625186DB23F002C61DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28663624186DB23F002C61DD /* Foundation.framework */; };
+		2866362A186DB23F002C61DD /* NumericExpressions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28663629186DB23F002C61DD /* NumericExpressions.h */; };
+		2866362C186DB23F002C61DD /* NumericExpressions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2866362B186DB23F002C61DD /* NumericExpressions.mm */; };
+		28663633186DB23F002C61DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28663632186DB23F002C61DD /* XCTest.framework */; };
+		28663634186DB23F002C61DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28663624186DB23F002C61DD /* Foundation.framework */; };
+		28663636186DB23F002C61DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28663635186DB23F002C61DD /* UIKit.framework */; };
+		28663639186DB23F002C61DD /* libNumericExpressions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28663621186DB23F002C61DD /* libNumericExpressions.a */; };
+		2866363F186DB23F002C61DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2866363D186DB23F002C61DD /* InfoPlist.strings */; };
+		28663641186DB23F002C61DD /* NumericExpressionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28663640186DB23F002C61DD /* NumericExpressionsTests.m */; };
+		2866364D186DB25D002C61DD /* SRExpressionsParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866364B186DB25D002C61DD /* SRExpressionsParser.cpp */; };
+		2866364E186DB25D002C61DD /* SRExpressionsParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866364B186DB25D002C61DD /* SRExpressionsParser.cpp */; };
+		28663651186DC134002C61DD /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866364F186DC134002C61DD /* Token.cpp */; };
+		28663652186DC134002C61DD /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866364F186DC134002C61DD /* Token.cpp */; };
+		28663653186DD9E9002C61DD /* NumericExpressions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2866362B186DB23F002C61DD /* NumericExpressions.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28663637186DB23F002C61DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28663619186DB23F002C61DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28663620186DB23F002C61DD;
+			remoteInfo = NumericExpressions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2866361F186DB23F002C61DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				28413796186DDB8600D4F5B8 /* SRErrorCodes.h in CopyFiles */,
+				2866362A186DB23F002C61DD /* NumericExpressions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28663621186DB23F002C61DD /* libNumericExpressions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNumericExpressions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28663624186DB23F002C61DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28663628186DB23F002C61DD /* NumericExpressions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumericExpressions-Prefix.pch"; sourceTree = "<group>"; };
+		28663629186DB23F002C61DD /* NumericExpressions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumericExpressions.h; sourceTree = "<group>"; };
+		2866362B186DB23F002C61DD /* NumericExpressions.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NumericExpressions.mm; sourceTree = "<group>"; };
+		28663631186DB23F002C61DD /* NumericExpressionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumericExpressionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28663632186DB23F002C61DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28663635186DB23F002C61DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2866363C186DB23F002C61DD /* NumericExpressionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumericExpressionsTests-Info.plist"; sourceTree = "<group>"; };
+		2866363E186DB23F002C61DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28663640186DB23F002C61DD /* NumericExpressionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumericExpressionsTests.m; sourceTree = "<group>"; };
+		2866364A186DB25D002C61DD /* SRErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRErrorCodes.h; sourceTree = "<group>"; };
+		2866364B186DB25D002C61DD /* SRExpressionsParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SRExpressionsParser.cpp; sourceTree = "<group>"; };
+		2866364C186DB25D002C61DD /* SRExpressionsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRExpressionsParser.h; sourceTree = "<group>"; };
+		2866364F186DC134002C61DD /* Token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Token.cpp; sourceTree = "<group>"; };
+		28663650186DC134002C61DD /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2866361E186DB23F002C61DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28663625186DB23F002C61DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2866362E186DB23F002C61DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28663633186DB23F002C61DD /* XCTest.framework in Frameworks */,
+				28663636186DB23F002C61DD /* UIKit.framework in Frameworks */,
+				28663634186DB23F002C61DD /* Foundation.framework in Frameworks */,
+				28663639186DB23F002C61DD /* libNumericExpressions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28663618186DB23F002C61DD = {
+			isa = PBXGroup;
+			children = (
+				28663626186DB23F002C61DD /* NumericExpressions */,
+				2866363A186DB23F002C61DD /* NumericExpressionsTests */,
+				28663623186DB23F002C61DD /* Frameworks */,
+				28663622186DB23F002C61DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28663622186DB23F002C61DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28663621186DB23F002C61DD /* libNumericExpressions.a */,
+				28663631186DB23F002C61DD /* NumericExpressionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28663623186DB23F002C61DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28663624186DB23F002C61DD /* Foundation.framework */,
+				28663632186DB23F002C61DD /* XCTest.framework */,
+				28663635186DB23F002C61DD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28663626186DB23F002C61DD /* NumericExpressions */ = {
+			isa = PBXGroup;
+			children = (
+				28663629186DB23F002C61DD /* NumericExpressions.h */,
+				2866362B186DB23F002C61DD /* NumericExpressions.mm */,
+				2866364A186DB25D002C61DD /* SRErrorCodes.h */,
+				2866364B186DB25D002C61DD /* SRExpressionsParser.cpp */,
+				2866364C186DB25D002C61DD /* SRExpressionsParser.h */,
+				2866364F186DC134002C61DD /* Token.cpp */,
+				28663650186DC134002C61DD /* Token.h */,
+				28663627186DB23F002C61DD /* Supporting Files */,
+			);
+			path = NumericExpressions;
+			sourceTree = "<group>";
+		};
+		28663627186DB23F002C61DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28663628186DB23F002C61DD /* NumericExpressions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2866363A186DB23F002C61DD /* NumericExpressionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28663640186DB23F002C61DD /* NumericExpressionsTests.m */,
+				2866363B186DB23F002C61DD /* Supporting Files */,
+			);
+			path = NumericExpressionsTests;
+			sourceTree = "<group>";
+		};
+		2866363B186DB23F002C61DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2866363C186DB23F002C61DD /* NumericExpressionsTests-Info.plist */,
+				2866363D186DB23F002C61DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28663620186DB23F002C61DD /* NumericExpressions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28663644186DB23F002C61DD /* Build configuration list for PBXNativeTarget "NumericExpressions" */;
+			buildPhases = (
+				2866361D186DB23F002C61DD /* Sources */,
+				2866361E186DB23F002C61DD /* Frameworks */,
+				2866361F186DB23F002C61DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumericExpressions;
+			productName = NumericExpressions;
+			productReference = 28663621186DB23F002C61DD /* libNumericExpressions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		28663630186DB23F002C61DD /* NumericExpressionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28663647186DB23F002C61DD /* Build configuration list for PBXNativeTarget "NumericExpressionsTests" */;
+			buildPhases = (
+				2866362D186DB23F002C61DD /* Sources */,
+				2866362E186DB23F002C61DD /* Frameworks */,
+				2866362F186DB23F002C61DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28663638186DB23F002C61DD /* PBXTargetDependency */,
+			);
+			name = NumericExpressionsTests;
+			productName = NumericExpressionsTests;
+			productReference = 28663631186DB23F002C61DD /* NumericExpressionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28663619186DB23F002C61DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Schwietering, Jürgen";
+			};
+			buildConfigurationList = 2866361C186DB23F002C61DD /* Build configuration list for PBXProject "NumericExpressions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28663618186DB23F002C61DD;
+			productRefGroup = 28663622186DB23F002C61DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28663620186DB23F002C61DD /* NumericExpressions */,
+				28663630186DB23F002C61DD /* NumericExpressionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2866362F186DB23F002C61DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2866363F186DB23F002C61DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2866361D186DB23F002C61DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28663651186DC134002C61DD /* Token.cpp in Sources */,
+				2866362C186DB23F002C61DD /* NumericExpressions.mm in Sources */,
+				2866364D186DB25D002C61DD /* SRExpressionsParser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2866362D186DB23F002C61DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28663652186DC134002C61DD /* Token.cpp in Sources */,
+				28663641186DB23F002C61DD /* NumericExpressionsTests.m in Sources */,
+				2866364E186DB25D002C61DD /* SRExpressionsParser.cpp in Sources */,
+				28663653186DD9E9002C61DD /* NumericExpressions.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28663638186DB23F002C61DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28663620186DB23F002C61DD /* NumericExpressions */;
+			targetProxy = 28663637186DB23F002C61DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2866363D186DB23F002C61DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2866363E186DB23F002C61DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28663642186DB23F002C61DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28663643186DB23F002C61DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28663645186DB23F002C61DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NumericExpressions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumericExpressions/NumericExpressions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28663646186DB23F002C61DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NumericExpressions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumericExpressions/NumericExpressions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		28663648186DB23F002C61DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumericExpressions/NumericExpressions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NumericExpressionsTests/NumericExpressionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28663649186DB23F002C61DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumericExpressions/NumericExpressions-Prefix.pch";
+				INFOPLIST_FILE = "NumericExpressionsTests/NumericExpressionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2866361C186DB23F002C61DD /* Build configuration list for PBXProject "NumericExpressions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28663642186DB23F002C61DD /* Debug */,
+				28663643186DB23F002C61DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28663644186DB23F002C61DD /* Build configuration list for PBXNativeTarget "NumericExpressions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28663645186DB23F002C61DD /* Debug */,
+				28663646186DB23F002C61DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28663647186DB23F002C61DD /* Build configuration list for PBXNativeTarget "NumericExpressionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28663648186DB23F002C61DD /* Debug */,
+				28663649186DB23F002C61DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28663619186DB23F002C61DD /* Project object */;
+}

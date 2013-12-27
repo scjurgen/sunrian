@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2818352B186DE19E0080F663 /* libNumericExpressions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2818352A186DE19E0080F663 /* libNumericExpressions.a */; };
+		28663604186D93D8002C61DD /* SRCRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 286635FF186D93D8002C61DD /* SRCRC32.m */; };
+		28663606186D93D8002C61DD /* SRInternalDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 28663603186D93D8002C61DD /* SRInternalDisk.m */; };
+		2866360E186D93E7002C61DD /* black-transparent-leftup-rightdown_200x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28663608186D93E7002C61DD /* black-transparent-leftup-rightdown_200x200@2x.png */; };
+		2866360F186D93E7002C61DD /* black-transparent-radial_center_200x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28663609186D93E7002C61DD /* black-transparent-radial_center_200x200@2x.png */; };
+		28663610186D93E7002C61DD /* black-transparent-up-down_200x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2866360A186D93E7002C61DD /* black-transparent-up-down_200x200@2x.png */; };
+		28663611186D93E7002C61DD /* black-white-up-down_200x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2866360B186D93E7002C61DD /* black-white-up-down_200x200@2x.png */; };
+		28663612186D93E7002C61DD /* red_green-left-right_200x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2866360C186D93E7002C61DD /* red_green-left-right_200x200@2x.png */; };
+		28663614186D93F0002C61DD /* SRCRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 286635FF186D93D8002C61DD /* SRCRC32.m */; };
+		28663616186D93F5002C61DD /* SRInternalDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 28663603186D93D8002C61DD /* SRInternalDisk.m */; };
 		386F8AA9186B23FB00B61828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AA8186B23FB00B61828 /* Foundation.framework */; };
 		386F8AAB186B23FB00B61828 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AAA186B23FB00B61828 /* CoreGraphics.framework */; };
 		386F8AAD186B23FB00B61828 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AAC186B23FB00B61828 /* UIKit.framework */; };
@@ -21,6 +31,8 @@
 		386F8ACA186B23FB00B61828 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AAC186B23FB00B61828 /* UIKit.framework */; };
 		386F8AD2186B23FB00B61828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386F8AD0186B23FB00B61828 /* InfoPlist.strings */; };
 		386F8AD4186B23FB00B61828 /* SunrianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386F8AD3186B23FB00B61828 /* SunrianTests.m */; };
+		386F8AEA186B2CF100B61828 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AE9186B2CF100B61828 /* CoreImage.framework */; };
+		386F8AEB186B2CFD00B61828 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F8AAA186B23FB00B61828 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2818352A186DE19E0080F663 /* libNumericExpressions.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libNumericExpressions.a; path = "NumericExpressions/build/Debug-iphoneos/libNumericExpressions.a"; sourceTree = "<group>"; };
+		286635FE186D93D8002C61DD /* SRCRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCRC32.h; sourceTree = "<group>"; };
+		286635FF186D93D8002C61DD /* SRCRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCRC32.m; sourceTree = "<group>"; };
+		28663602186D93D8002C61DD /* SRInternalDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRInternalDisk.h; sourceTree = "<group>"; };
+		28663603186D93D8002C61DD /* SRInternalDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRInternalDisk.m; sourceTree = "<group>"; };
+		28663608186D93E7002C61DD /* black-transparent-leftup-rightdown_200x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-transparent-leftup-rightdown_200x200@2x.png"; sourceTree = "<group>"; };
+		28663609186D93E7002C61DD /* black-transparent-radial_center_200x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-transparent-radial_center_200x200@2x.png"; sourceTree = "<group>"; };
+		2866360A186D93E7002C61DD /* black-transparent-up-down_200x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-transparent-up-down_200x200@2x.png"; sourceTree = "<group>"; };
+		2866360B186D93E7002C61DD /* black-white-up-down_200x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-white-up-down_200x200@2x.png"; sourceTree = "<group>"; };
+		2866360C186D93E7002C61DD /* red_green-left-right_200x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_green-left-right_200x200@2x.png"; sourceTree = "<group>"; };
+		2866360D186D93E7002C61DD /* TestSquare.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestSquare.psd; sourceTree = "<group>"; };
 		386F8AA5186B23FB00B61828 /* Sunrian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386F8AA8186B23FB00B61828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		386F8AAA186B23FB00B61828 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +76,7 @@
 		386F8ACF186B23FB00B61828 /* SunrianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunrianTests-Info.plist"; sourceTree = "<group>"; };
 		386F8AD1186B23FB00B61828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		386F8AD3186B23FB00B61828 /* SunrianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunrianTests.m; sourceTree = "<group>"; };
+		386F8AE9186B2CF100B61828 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2818352B186DE19E0080F663 /* libNumericExpressions.a in Frameworks */,
 				386F8AAB186B23FB00B61828 /* CoreGraphics.framework in Frameworks */,
 				386F8AAD186B23FB00B61828 /* UIKit.framework in Frameworks */,
 				386F8AA9186B23FB00B61828 /* Foundation.framework in Frameworks */,
@@ -70,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386F8AEB186B2CFD00B61828 /* CoreGraphics.framework in Frameworks */,
+				386F8AEA186B2CF100B61828 /* CoreImage.framework in Frameworks */,
 				386F8AC8186B23FB00B61828 /* XCTest.framework in Frameworks */,
 				386F8ACA186B23FB00B61828 /* UIKit.framework in Frameworks */,
 				386F8AC9186B23FB00B61828 /* Foundation.framework in Frameworks */,
@@ -79,6 +106,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286635FD186D93D8002C61DD /* GraphicsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				286635FE186D93D8002C61DD /* SRCRC32.h */,
+				286635FF186D93D8002C61DD /* SRCRC32.m */,
+				28663602186D93D8002C61DD /* SRInternalDisk.h */,
+				28663603186D93D8002C61DD /* SRInternalDisk.m */,
+			);
+			path = GraphicsLibrary;
+			sourceTree = "<group>";
+		};
+		28663607186D93E7002C61DD /* TestAssets */ = {
+			isa = PBXGroup;
+			children = (
+				28663608186D93E7002C61DD /* black-transparent-leftup-rightdown_200x200@2x.png */,
+				28663609186D93E7002C61DD /* black-transparent-radial_center_200x200@2x.png */,
+				2866360A186D93E7002C61DD /* black-transparent-up-down_200x200@2x.png */,
+				2866360B186D93E7002C61DD /* black-white-up-down_200x200@2x.png */,
+				2866360C186D93E7002C61DD /* red_green-left-right_200x200@2x.png */,
+				2866360D186D93E7002C61DD /* TestSquare.psd */,
+			);
+			path = TestAssets;
+			sourceTree = "<group>";
+		};
 		386F8A9C186B23FB00B61828 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +152,8 @@
 		386F8AA7186B23FB00B61828 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2818352A186DE19E0080F663 /* libNumericExpressions.a */,
+				386F8AE9186B2CF100B61828 /* CoreImage.framework */,
 				386F8AA8186B23FB00B61828 /* Foundation.framework */,
 				386F8AAA186B23FB00B61828 /* CoreGraphics.framework */,
 				386F8AAC186B23FB00B61828 /* UIKit.framework */,
@@ -112,6 +165,7 @@
 		386F8AAE186B23FB00B61828 /* Sunrian */ = {
 			isa = PBXGroup;
 			children = (
+				286635FD186D93D8002C61DD /* GraphicsLibrary */,
 				386F8AB7186B23FB00B61828 /* AppDelegate.h */,
 				386F8AB8186B23FB00B61828 /* AppDelegate.m */,
 				386F8ABA186B23FB00B61828 /* Main.storyboard */,
@@ -137,6 +191,7 @@
 		386F8ACD186B23FB00B61828 /* SunrianTests */ = {
 			isa = PBXGroup;
 			children = (
+				28663607186D93E7002C61DD /* TestAssets */,
 				386F8AD3186B23FB00B61828 /* SunrianTests.m */,
 				386F8ACE186B23FB00B61828 /* Supporting Files */,
 			);
@@ -238,7 +293,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28663611186D93E7002C61DD /* black-white-up-down_200x200@2x.png in Resources */,
+				28663612186D93E7002C61DD /* red_green-left-right_200x200@2x.png in Resources */,
 				386F8AD2186B23FB00B61828 /* InfoPlist.strings in Resources */,
+				2866360F186D93E7002C61DD /* black-transparent-radial_center_200x200@2x.png in Resources */,
+				2866360E186D93E7002C61DD /* black-transparent-leftup-rightdown_200x200@2x.png in Resources */,
+				28663610186D93E7002C61DD /* black-transparent-up-down_200x200@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +311,8 @@
 			files = (
 				386F8ABF186B23FB00B61828 /* ViewController.m in Sources */,
 				386F8AB9186B23FB00B61828 /* AppDelegate.m in Sources */,
+				28663606186D93D8002C61DD /* SRInternalDisk.m in Sources */,
+				28663604186D93D8002C61DD /* SRCRC32.m in Sources */,
 				386F8AB5186B23FB00B61828 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28663614186D93F0002C61DD /* SRCRC32.m in Sources */,
 				386F8AD4186B23FB00B61828 /* SunrianTests.m in Sources */,
+				28663616186D93F5002C61DD /* SRInternalDisk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +524,7 @@
 				386F8AD9186B23FB00B61828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386F8ADA186B23FB00B61828 /* Build configuration list for PBXNativeTarget "SunrianTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +533,7 @@
 				386F8ADC186B23FB00B61828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
